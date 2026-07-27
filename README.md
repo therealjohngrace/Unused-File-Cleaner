@@ -29,4 +29,4 @@ Node.js files cannot be deleted because this tool is in Alpha and may accidental
 # Permissions
 Unused-File-Cleaner needs your permission to delete files. When it scans and attempts to delete files, it will ask you for confirmation.
 If you accept, it will proceed to scanning or deleting files. Once done, it will notify you telling you that the scan or file deletion process is complete. The notification should look something like this:
-(./workspaces/Unused-File-Cleaner/assets/notif show.png)
+![Notification Preview](./assets/notif-show.png)
