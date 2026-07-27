@@ -23,3 +23,9 @@ Unused-File-Cleaner can delete this list of files:
 - JSON Files
 - YML Files
 Node.js files cannot be deleted because this tool is in Alpha and may accidentally delete the Node.js file keeping this up and running. We may update the tool to ignore the Node.js that keeps this running and not delete it. JSON cannot be deleted for the same reason. Same goes for YML.
+
+
+
+# Permissions
+Unused-File-Cleaner needs your permission to delete files. When it scans and attempts to delete files, it will ask you for confirmation.
+If you accept, it will proceed to scanning or deleting files. Once done, it will notify you telling you that the scan or file deletion process is complete.
