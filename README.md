@@ -32,3 +32,6 @@ If you accept, it will proceed to scanning or deleting files. Once done, it will
 ![Notification Preview](./assets/notif-show.png)
 or if you are deleting something,
 ![Notification Preview](./assets/notif-show2.png)
+If you attempt to delete files that cannot be deleted, this message will pop up.
+![Error Preview](./assets/error-notif-show.png)
+There are more error codes and variations, but we will showcase this one specifically to tell you if you try to delete the Unused-File-Cleaner using it, it will not do so. (Note: This does not mean the file is permanently undeletable. It is undeletable in this scenairo because the tool is currently in use.)
