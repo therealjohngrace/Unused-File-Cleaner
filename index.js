@@ -101,3 +101,25 @@ function runCleaner() {
 }
 
 runCleaner();
+// index.js
+const fs = require('fs');
+// Import the separate logger file
+const { logDeletion } = require('./logger');
+
+function deleteUnusedFile(filePath) {
+    if (fs.existsSync(filePath)) {
+        
+        // 1. Delete the file
+        fs.unlinkSync(filePath);
+        console.log(`Successfully deleted: ${filePath}`);
+
+        // 2. Hand off the logging to our separate file
+        logDeletion(filePath);
+        
+    } else {
+        console.log(`File not found: ${filePath}`);
+    }
+}
+
+// Example usage:
+deleteUnusedFile('./some-old-file.txt');
