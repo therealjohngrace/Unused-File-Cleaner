@@ -1,8 +1,11 @@
 {
   "name": "unused-file-cleaner",
   "version": "1.0.0",
-  "description": "Clean unused files and get desktop notifications",
+  "description": "Clean up files locally",
   "main": "index.js",
+  "bin": {
+    "unused-cleaner": "./index.js"
+  },
   "dependencies": {
     "node-notifier": "^10.0.1"
   }
